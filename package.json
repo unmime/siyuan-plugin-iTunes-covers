@@ -1,0 +1,15 @@
+{
+  "name": "siyuan-plugin-iTunes-covers",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Book / album / TV-season covers from Apple iTunes Search for SiYuan",
+  "type": "module",
+  "scripts": {
+    "test": "node scripts/smoke-test.mjs && node scripts/ui-test.mjs",
+    "package": "node scripts/package.mjs",
+    "build": "node scripts/package.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "^30.1.3"
+  }
+}
